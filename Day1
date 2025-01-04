@@ -1,0 +1,20 @@
+//JavaScript DSA
+//Day 1
+//You are given an integer n. Print the first n natural numbers.
+//Sample Input:
+//7
+//Sample Output:
+//1 2 3 4 5 6 7
+
+function firstNNaturalNum(n) {
+  let num = "";
+  for (let i = 1; i <= n; i++) {
+    num += i + " ";
+  }
+  console.log(num.trim());
+  return num.trim();
+}
+
+// Example usage
+firstNNaturalNum(5);  // Outputs: 1 2 3 4 5
+firstNNaturalNum(10); // Outputs: 1 2 3 4 5 6 7 8 9 10
