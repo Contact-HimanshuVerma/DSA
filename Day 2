@@ -1,11 +1,7 @@
 You are given an integer n. Print the first n even numbers.
-
 Sample Input:
-
 7
-
 Sample Output:
-
 2 4 6 8 10 12 14
 
 function firstNEvenNumbers(n) {
@@ -14,4 +10,21 @@ function firstNEvenNumbers(n) {
         num += (i * 2) + ' ';
     }
     console.log(num.trim());
+}
+
+
+You are given an integer n. Print all the even numbers less than equal to n.
+Sample Input:
+14
+Sample Output:
+2 4 6 8 10 12 14
+
+function evenNumLessThanN(n) {
+  let num = "";
+  for (let i = 1; i < n; i++) {
+    if (i % 2 === 0) {
+      num += i + " ";
+    }
+  }
+  console.log(num.trim());
 }
