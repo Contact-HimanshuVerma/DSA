@@ -1,0 +1,13 @@
+You are given an integer n. Print all the square numbers less than equal to n.
+Sample Input:
+50
+Sample Output:
+1 4 9 16 25 36 49
+
+function squareLessThanN(n) {
+  let result = "";
+  for (let i = 1; i * i <= n; i++) {
+    result += (i * i) + " ";
+  }
+  return result.trim();
+}
