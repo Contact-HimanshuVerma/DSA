@@ -1,0 +1,16 @@
+Multiplication Table of n:
+You are given an integer n. Print the multiplication table of n till count 10.
+Sample Input: 7
+Sample Output: 7 14 21 28 35 42 49 56 63 70
+Explanation: Print 71, 72, …, 7*10.
+
+
+function multiplicationTableonNTill10(n){
+  let num = "";
+  for ( let i=1; i=n; i++ ){
+    num += i*n + " ";
+  }
+  return console.log(num.trim());
+}
+
+
