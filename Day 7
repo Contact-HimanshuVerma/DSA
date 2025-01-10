@@ -14,3 +14,23 @@ if ( n%i===0 ) {
 }
 } return fON.trim();
 }
+
+
+First n Odd Numbers:
+You are given an integer n. Print the first n odd numbers.
+Sample Input:
+7
+Sample Output:
+1 3 5 7 9 11 13
+
+
+console.clear();
+function firstNOddNumbers(n) {
+  let num = "";
+  for ( let i=1; i<=n*2; i+=2 ) {
+    num += i + " ";
+  }
+  return num.trim();
+}
+
+console.log(firstNOddNumbers(9));
