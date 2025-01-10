@@ -1,0 +1,16 @@
+Factors of a Number: ✅
+Write a program that takes a number n as input and prints all the factors of the number.
+Sample Input:
+24
+Sample Output:
+1 2 3 4 6 8 12 24
+
+
+function factorsOfN(n) {
+let fON = "";
+for ( let i = 1; i <= n; i++; ){
+if ( n%i===0 ) {
+ fON += i + " ";
+}
+} return fON.trim();
+}
