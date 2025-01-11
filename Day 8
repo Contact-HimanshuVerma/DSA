@@ -4,3 +4,12 @@ Sample Input:
 7
 Sample Output:
 2 5 8 11 14 17 20
+
+
+function printFirstNTerms(n) {
+  let num = '';
+  for ( let i=0; i<n; i++ ) {
+    num += (2 + (3*i)) + " ";
+  }
+  return num.trim();
+}
