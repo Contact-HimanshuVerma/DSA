@@ -1,0 +1,6 @@
+Series: 2, 5, 8, 11, 14, …:
+You are given an integer n. Print first n terms of the series 2, 5, 8, 11, 14…
+Sample Input:
+7
+Sample Output:
+2 5 8 11 14 17 20
