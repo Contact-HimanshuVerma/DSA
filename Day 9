@@ -4,3 +4,15 @@ Sample Input:
 7
 Sample Output:
 3 6 12 24 48 96 192
+
+
+function printFirstNTermsOfSeries(n) {
+  let num = "";
+  let lastNum = 3;
+  for ( let i=0; i<n; i++ ) {
+  num += lastNum + " ";
+  lastNum =  lastNum * 2;
+  
+  }
+  return lastNum.trim();
+}
