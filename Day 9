@@ -14,5 +14,5 @@ function printFirstNTermsOfSeries(n) {
   lastNum =  lastNum * 2;
   
   }
-  return lastNum.trim();
+  return num.trim();
 }
