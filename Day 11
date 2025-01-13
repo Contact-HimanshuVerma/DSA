@@ -7,3 +7,10 @@ Sample Output:
 63
 Explanation: Sum of 3+5+7+9+11+13+15 = 63
 
+function printSumOfFirstNTerms(n) {
+  let num = 0;
+  for ( let i=0; i<n; i++ ) {
+    num += (3 + (i * 2));
+  }
+  return num
+}
