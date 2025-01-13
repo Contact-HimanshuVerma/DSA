@@ -6,3 +6,15 @@ Sample Input:
 Sample Output:
 28
 Explanation: Sum of 1+2+3+4+5+6+7 = 28
+
+
+console.clear();
+function PrintSumOfFirstNNaturalNum(n) {
+  let sum = 0;
+  for ( let i=1; i<=n; i++ ) {
+    sum += i;
+  }
+  return sum;
+}
+
+console.log(PrintSumOfFirstNNaturalNum(5));
