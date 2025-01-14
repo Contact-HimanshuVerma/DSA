@@ -14,3 +14,21 @@ function printSumOfFirstNTerms(n) {
   }
   return num
 }
+
+
+Factorial of a Number:
+Write a program to calculate the factorial of a given number n.
+The factorial of a number n is the product of all positive integers less than or equal to n.
+Sample Input:
+6
+Sample Output:
+720
+Explanation: 720 = 65432*1
+
+function factorialOfGivenNumber(n) {
+  let factorialOfNumberN = 1;
+  for (let i = 1; i <= n; i++) {
+    factorialOfNumberN *= i;
+  }
+  return factorialOfNumberN;
+}
