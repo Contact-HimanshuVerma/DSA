@@ -4,3 +4,17 @@ Sample Input:
 1132
 Sample Output:
 4
+
+
+
+
+Is Prime?:
+You are given an integer n. Print yes, if it is a prime number. Print no, if it is not a prime number.
+Sample Input 1:
+49
+Sample Output 1:
+No
+Sample Input 2:
+37
+Sample Output 2:
+Yes
