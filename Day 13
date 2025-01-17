@@ -11,3 +11,24 @@ Sample Input 2:
 Sample Output 2:
 No
 Explanation 2: The factors of 24 are 1, 2, 3, 4, 6, 8, 12, 24. We don't consider the number itself. But 24 != 1+2+3+4+6+8+12.
+
+
+function isPerfectNumber(n) {
+    if (n <= 1) {
+        return "No";
+    }
+
+    // Calculate the sum of divisors excluding the number itself
+    let divisorSum = 0;
+    for (let i = 1; i < n; i++) {
+        if (n % i === 0) {
+            divisorSum += i;
+        }
+    }
+
+    return divisorSum === n ? "Yes" : "No";
+}
+
+// Test cases
+console.log(isPerfectNumber(28)); // Output: Yes
+console.log(isPerfectNumber(24)); // Output: No
