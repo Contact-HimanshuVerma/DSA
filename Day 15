@@ -9,3 +9,14 @@ Sample Input:
 Sample Output:
 
 4
+
+
+function sumOfDigitsofNum(n) {
+  let arr = [...n.toString()].map(Number);
+  let result = 0;
+  for ( let i=0; i<arr; i++ ) {
+    result += arr[i];
+  }
+return result;
+  
+}
