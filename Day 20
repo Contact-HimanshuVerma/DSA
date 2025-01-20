@@ -9,3 +9,17 @@ Sample Output:
 2311
 
 Explanation: The reverse of 1132 is 2311.
+
+
+console.clear();
+function printReverseNum(num) { 
+let arr = [...num.toString()].map(Number);
+let revArr = [];
+for (let i=0; i<arr.length; i++) {
+  revArr.unshift(arr[i]);
+console.log(i);
+}
+  return Number(revArr.join(''));
+}
+
+console.log(printReverseNum(1155));
