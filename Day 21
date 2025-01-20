@@ -13,3 +13,17 @@ Sample Input:
 Sample Output:
 
 0 1 1 2 3 5 8 13 21 34
+
+
+function fibonacciSeries(n){
+  let series = '';
+  let lastNum = 1;
+  let preNum = 0;
+  for (let i=0;i<n; i++){
+    let newNum = lastNum + preNum
+    series = preNum + " "
+    preNum = lastNum;
+    lastNum = newNum;
+  }
+  return series.trim();
+} 
