@@ -1,0 +1,12 @@
+You are given an integer array. Print the number of odd numbers in the array.
+
+Sample Input:
+
+4 7 9 10 13 17
+
+Sample Output:
+
+4
+
+Explanation: There are 4 odd numbers in the given numbers: 7, 9, 13, 17.
+
