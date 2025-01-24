@@ -13,3 +13,15 @@ programming
 Sample Output:
 
 prograMming
+
+
+
+console.clear();
+function capitalizeNChar(str, i) {
+  let arr = Array.from(str);
+  arr[i] = arr[i].toUpperCase();
+ return arr.join('');
+  
+}
+
+console.log(capitalizeNChar("apple",4)); 
