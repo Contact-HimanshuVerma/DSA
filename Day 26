@@ -21,3 +21,19 @@ Sample Output 2:
 Yes
 
 Explanation 2: The given array is in ascending order.
+
+
+
+function isAscending(arr) {
+ if(arr.length<1){
+    return "Not valid array to check"
+  }
+  let lastNum = arr[0];
+  for(let i=0;i<arr.length;i++){
+    if(arr[i] < lastNum){
+      return "no";
+    }
+  }else{
+    return "Yes";
+  }
+}
