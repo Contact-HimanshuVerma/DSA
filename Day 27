@@ -11,3 +11,18 @@ Sample Output:
 3
 
 Explanation: Here 3 is the minimum number. But since 3 is present more than once, we print the index of the first occurrence.
+
+
+function minNum(arr) {
+  let minN = arr[0];
+  let minIndex = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < minN) {
+      minN = arr[i];
+      minIndex = i;
+    }
+  }
+
+  return [minN, minIndex];
+}
