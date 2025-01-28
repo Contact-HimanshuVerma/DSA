@@ -13,3 +13,24 @@ Sample Output:
 21 25 22 21 23
 
 Explanation: The first element of the array is 7, so we print sum of all the elements except the number itself. 21 = 3 + 6 + 7 + 5.The second element of the array is 3. 25 = 7 + 6 + 7 + 5.The third element of the array is 6. 22 = 7 + 3 + 7 + 5.The fourth element of the array is 7. 21 = 7 + 3 + 6 + 5.The fifth element of the array is 5. 23 = 7 + 3 + 6 + 7.
+
+
+
+
+
+function sumExceptSelf (arr) {
+  let sumArr = "";
+  
+  for ( let i = 0; i < arr.length; i++) {
+    let sum = 0;
+    for ( let j = 0; j < arr.length; j++) {
+      
+      if( j !== i ) {
+        sum += arr[j];
+      }
+    }
+    sumArr += sum + " ";
+  }
+  
+  return sumArr.trim();
+}
