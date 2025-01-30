@@ -1,0 +1,23 @@
+Star Pattern 1:
+
+Print the following pattern based on the given input.
+
+Sample Input:
+
+6
+
+Sample Output:
+*
+**
+***
+****
+*****
+******
+
+
+function starPattern (n) {
+  let star = *;
+  for ( let i = 1; i <= n; i++ ) {
+    console.log(star.repeat(i));
+  }
+}
