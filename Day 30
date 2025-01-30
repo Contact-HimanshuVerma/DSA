@@ -21,3 +21,5 @@ function starPattern (n) {
     console.log(star.repeat(i));
   }
 }
+
+starPattern(6);
