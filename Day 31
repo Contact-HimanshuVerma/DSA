@@ -13,3 +13,12 @@ Sample Output:
 *
 
 Explanation: Since the input is 6, it prints a total of 6 lines. In each line, it prints only one star, but the leading space increases.
+
+
+function starPattern(n) {
+  let star = *;
+  let space = " ";
+  for ( let i = 0; i < n; i++ ) {
+    console.log(space.repeat(i) + star.repeat(1))
+  }
+}
