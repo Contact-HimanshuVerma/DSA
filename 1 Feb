@@ -9,3 +9,13 @@ Sample Output:
 *
 
 Explanation: Since the input is 5, it prints a total of 5 lines of stars. Each line has stars as well as leading spaces. In each line, the star count increases by 2, but the leading space decreases by 1.
+
+
+function starPattern (n) {
+  let star = *;
+  let space = " ";
+  
+  for ( let i = 1; i <= n; i++ ) {
+    console.log(space.repeat(n-i)) + star.repeat((i*2)-1));
+  }
+}
