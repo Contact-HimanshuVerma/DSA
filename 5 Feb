@@ -9,3 +9,16 @@ Sample Input:
 Sample Output:
 
 25 9 16 49 4 81
+
+
+function squareOfArr (arr) {
+  let result = "";
+const numArray = Array.from(arr.split(' '), Number);  
+  numberArray.foreach((n) => {
+  result += (n + " "); 
+  console.log(n*n)
+  
+  })
+  
+return result.trim();
+}
