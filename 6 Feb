@@ -1,0 +1,13 @@
+Sum of Elements in an Array ✅
+
+You are given an integer array. Add all the numbers present in the array and print the sum.
+
+Sample Input:
+
+10 5 6 3 4 3 5 6
+
+Sample Output:
+
+42
+
+Explanation: 10+5+6+3+4+3+5+6 = 42
