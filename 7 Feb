@@ -13,3 +13,14 @@ Sample Output:
 3
 
 Explanation: The given number 7 appears 3 times in the given array.
+
+
+function numInArr (str, n) {
+  let count = 0;
+  const arr = Array.from(str.split(','), Number);
+  for ( let i = 0; i < arr.length; i++ ) {
+    if(arr[i] === n) {
+      count++;
+    }
+  }
+}
