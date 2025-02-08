@@ -7,3 +7,19 @@ Sample Input: programming
 Sample Output: progamin
 
 Explanation: We print a new string removing the repeating characters. R, m and g were repeating in the given string "programming" and hence were removed from the new string.
+
+
+
+function removeDuplicateFromStr (str) {
+  let arr = str.split("");
+  let newArr = [];
+  
+  for ( let i = 0; i < arr.length; i++ ) {
+    if ( newArr.includes(arr[i])) {
+    }else {
+            newArr.push(arr[i]);
+
+    }
+  }
+  return newArr.join(''); 
+}
