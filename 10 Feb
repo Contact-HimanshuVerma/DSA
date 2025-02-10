@@ -1,0 +1,13 @@
+Product of Elements in an Array ✅
+
+You are given an integer array. Multiply all the numbers present in the array and print the final product.
+
+Sample Input:
+
+3 2 5 1 4
+
+Sample Output:
+
+120
+
+Explanation: 32514 = 120
