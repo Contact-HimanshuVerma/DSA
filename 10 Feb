@@ -11,3 +11,14 @@ Sample Output:
 120
 
 Explanation: 32514 = 120
+
+
+function mulArr (str) {
+let intList = str.split(' ').map(Number);
+    let result = intList[0];
+
+  for ( let i = 1; i < intList.length; i++ ) {
+    result *= intList[i];
+  }
+  return result;
+}
