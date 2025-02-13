@@ -24,3 +24,15 @@ Sample Output 2:
 No
 
 Explanation 2: In the given array, there are no elements greater than 19.
+
+
+
+function elementGreaterThanK ( arr , k ) {
+  for ( let i = 0; i < arr.length; i++ ) {
+    if (arr[i] > k){
+    return arr[i];
+  } 
+  
+}return "No";
+  
+}
