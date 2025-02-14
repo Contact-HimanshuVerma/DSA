@@ -12,3 +12,16 @@ Sample Output:
 4
 
 Explanation: Here 3 is the minimum number. But since 3 is present more than once, we print the index of the first occurrence.
+
+
+function indexOfMinElement ( strArr ) {
+const numArray = strArr.split(' ').map(Number);
+  let indexOf = 0;
+  
+  for ( let i = 1; i < numArray.length; i++ ) {
+    if ( numArray[i] < numArray[indexOf]) {
+      indexOf = i;
+    }
+  }
+  return console.log(indexOf + 1); 
+}
