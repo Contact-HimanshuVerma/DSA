@@ -14,3 +14,34 @@ Sample Output:
 3 7
 
 Explanation: The string has 3 vowels and 7 consonants.
+
+
+
+console.clear();
+
+function countVowelConsonants ( str ) {
+let arr = str.split("");
+let vowel = 0;
+let consonants = 0;
+  for ( let i = 0; i < arr.length; i++ ) {
+    arr[i].toLowerCase();
+    if( arr[i] == "a" ) {
+      vowel++;
+    } else if( arr[i] == "e" ) {
+      vowel++;
+    } else if( arr[i] == "i" ) {
+      vowel++;
+    } else if( arr[i] == "o" ) {
+      vowel++;
+    } else if( arr[i] == "u" ) {
+      vowel++;
+    }else {
+      consonants++
+    }
+  }
+  
+  return `vowel: ${vowel} & consonants: ${consonants}`;
+  
+}
+
+console.log(countVowelConsonants("Helloogg"));
