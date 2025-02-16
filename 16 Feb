@@ -20,3 +20,12 @@ r
 Sample Output 2:
 
 No
+
+
+function isCharPresent ( str, c ) {
+  if ( str.match(c) ) {
+    return "Yes";
+  } else {
+      return "No";
+  }
+}
