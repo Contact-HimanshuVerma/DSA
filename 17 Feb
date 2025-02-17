@@ -10,3 +10,17 @@ Sample Output:
 12
 
 Explanation: 5+7 = 12 is the maximum sum of two consecutive integers in the given array.
+
+
+
+function findMaxNum ( arr ) {
+  let maxSum = arr[0] + arr[1];
+
+  
+  for ( let i = 1; i < arr.length; i++ ) {
+    if ( arr[i-1] + arr[i] > maxSum ) {
+      maxSum = arr[i-1] + arr[i];
+    } 
+  }
+  return maxSum;
+}
