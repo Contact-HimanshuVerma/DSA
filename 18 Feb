@@ -21,3 +21,15 @@ Sample Output 2:
 No
 
 Explanation 2: In the given array, there are no perfect squares.
+
+
+function isPerfectSquare ( arr ) {
+  for ( let i = 0; i < arr.length; i++ ) {
+    for ( let j = 0; j <= arr[i]; j++) {
+      if ( arr[j] * arr[j] == arr[i] ) {
+        return console.log(arr[i]);
+      }
+    }
+  }
+  return console.log("No");
+}
