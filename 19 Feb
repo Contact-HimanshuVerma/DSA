@@ -30,3 +30,18 @@ Sample Output 2:
 No
 
 Explanation 2: No elements are common in the two given array.
+
+
+
+function findCommon ( n, arr1, arr2 ) {
+  let commonNums = "";
+  for ( let i = 0; i < arr1.length; i++ ) {
+    if ( arr2.includes(arr1[i])) {
+      if (!commonNums.includes(arr[i]){
+        commonNums += arr1[i] + " ";
+      } 
+    }
+  }
+return commonNums.length < 1 ? "No" : commonNums;
+  
+}
