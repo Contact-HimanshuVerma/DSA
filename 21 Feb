@@ -10,3 +10,18 @@ Sample Input:
 Sample Output:
 
 80
+
+
+function findLCM(int1, int2) {
+  let largerNum = Math.max(int1, int2);
+
+  while (true) {
+    if (largerNum % int1 === 0 && largerNum % int2 === 0) {
+      return largerNum;
+    }
+    largerNum++;
+  }
+}
+
+// Example usage:
+console.log(findLCM(12, 18)); // Output: 36
