@@ -1,0 +1,12 @@
+LCM (Least Common Multiple):
+You are given two positive integers a and b. Print the LCM of these two numbers.
+
+Sample Input:
+
+20
+
+16
+
+Sample Output:
+
+80
