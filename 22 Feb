@@ -1,0 +1,12 @@
+GCD (Greatest Common Divisor) or HCF (Highest Common Factor):
+You are given two positive integers a and b. Print the GCD or HCF of these two numbers.
+
+Sample Input:
+
+20
+
+16
+
+Sample Output:
+
+4
