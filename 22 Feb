@@ -10,3 +10,14 @@ Sample Input:
 Sample Output:
 
 4
+
+
+function findHCF ( num1, num2 ) {
+  let lowerNum = Math.min(num2, num1);
+  
+  for ( let i = lowerNum; i > 0; i-- ) {
+    if ( num1 % i == 0 && num2 % i == 0) {
+      return i;
+    }
+  }
+}
