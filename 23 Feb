@@ -7,3 +7,12 @@ Sample Input:
 Sample Output:
 
 8
+
+
+function binaryToDecimal(binary) {
+    return parseInt(binary, 2);
+}
+
+// Sample Input
+let B = "1000";
+console.log(binaryToDecimal(B)); // Output: 8
