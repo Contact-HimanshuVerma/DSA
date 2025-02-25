@@ -37,4 +37,5 @@ function isAvailableInSentence(sentence, word) {
 // Example usage
 console.log(isAvailableInSentence("Hello, World!", "world")); // Output: Yes
 console.log(isAvailableInSentence("Hello World", "Python")); // Output: No
+console.log(isAvailableInSentence("Hello World", "Java")); // Output: No
 console.log(isAvailableInSentence("Python is great!", "python.")); // Output: Yes
