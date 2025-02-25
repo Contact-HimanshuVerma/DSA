@@ -1,4 +1,5 @@
 Search Word in a Sentence:
+
 You are given a sentence S. You are also given a word W. Check if the word W is present in the sentence S. If present print yes, else print no.
 
 The input word W will have no space in between.
@@ -30,6 +31,7 @@ function isAvailableInSentence(sentence, word) {
     let cleanedWord = word.replace(/[^\w\s]/g, '').toLowerCase();
     
     return cleanedSentence.includes(cleanedWord) ? "Yes" : "No";
+
 }
 
 // Example usage
