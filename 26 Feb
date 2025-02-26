@@ -20,3 +20,23 @@ Sample Output:
 
 Explanation: 3 appears twice, but we have to print its frequency only once. Same is with other numbers.
 
+
+
+function printFrequency(arr) {
+    let frequency = {};
+
+    // Count frequency of each element
+    arr.forEach(num => {
+        frequency[num] = (frequency[num] || 0) + 1;
+    });
+
+    // Print the frequencies
+    for (let key in frequency) {
+        console.log(key, frequency[key]);
+    }
+}
+
+// Sample Input
+let arr = [3, 6, 2, 1, 7, 3, 7, 4, 1, 7, 4];
+
+printFrequency(arr);
