@@ -13,3 +13,30 @@ Explanation: Characters in both the strings are not same. s1 has extra character
 Input: s1 = "g", s2 = "g"
 Output: true
 Explanation: Characters in both the strings are same, so they are anagrams.
+
+
+function areAnagrams(s1, s2) {
+    if (s1.length !== s2.length) {
+        return false;
+    }
+    
+    const charCount = {};
+    
+    for (let char of s1) {
+        charCount[char] = (charCount[char] || 0) + 1;
+    }
+    
+    for (let char of s2) {
+        if (!charCount[char]) {
+            return false;
+        }
+        charCount[char]--;
+    }
+    
+    return true;
+}
+
+// Test cases
+console.log(areAnagrams("geeks", "kseeg")); // true
+console.log(areAnagrams("allergy", "allergic")); // false
+console.log(areAnagrams("g", "g")); // true
