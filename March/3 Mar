@@ -40,3 +40,5 @@ function areAnagrams(s1, s2) {
 console.log(areAnagrams("geeks", "kseeg")); // true
 console.log(areAnagrams("allergy", "allergic")); // false
 console.log(areAnagrams("g", "g")); // true
+console.log(areAnagrams("gnng", "gnng")); // true
+
