@@ -1,0 +1,62 @@
+Problem Statement:
+Write a program that takes a positive integer n as input and checks whether it is a prime number using a while loop. A prime number is a number greater than 1 that has no divisors other than 1 and itself.
+
+
+
+For example:
+
+5 is prime because it can only be divided by 1 and 5.
+
+6 is not prime because it can be divided by 1, 2, 3, and 6.
+
+
+
+
+
+Constraints:
+
+Use only a while loop for repetition.
+
+Do not use for loop or any functions.
+
+The input integer n will always be a positive integer.
+
+
+
+Sample Input 1:
+5
+
+
+
+Sample Output 1:
+Prime Number
+
+
+
+Sample Input 2:
+6
+
+
+
+Sample Output 2:
+Not a Prime Number
+
+
+//Phython Code
+
+n = int(input())
+i = 2
+is_prime = True
+
+while i<n:
+ if n%i == 0:
+  is_prime = False
+ i=i+1
+
+if is_prime :
+  print("Prime Number")
+else:
+ print("Not a Prime Number")
+
+if n==1:
+  print("Not a Prime Number")
