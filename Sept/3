@@ -1,0 +1,53 @@
+Problem Statement:
+Write a program that takes an integer n as input and prints a pyramid pattern with numbers. The pyramid should have n rows, where the first row contains the number 1, the second row contains 1 2, the third row contains 1 2 3, and so on, until the nth row.
+
+
+
+
+
+Constraints:
+
+Use only while loop for repetition.
+
+Do not use for loop or any functions.
+
+Input will always be a positive integer.
+
+
+
+Sample Input 1:
+5
+
+
+
+Sample Output 1:
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+
+
+Sample Input 2:
+3
+
+
+
+Sample Output 2:
+1
+1 2
+1 2 3
+
+
+
+
+n = int(input())
+i = 1
+while i <= n:
+  j = 1
+  while j<i:
+    print(j, end=" ")
+    j = j + 1
+  print(i)
+  i = i + 1
