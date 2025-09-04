@@ -1,0 +1,45 @@
+Problem Statement:
+Write a program that generates a series starting from 3 and continues by adding 2 to each subsequent number. The program should print the first n numbers of the series using a while loop.
+
+For example, the series starts like: 3, 5, 7, 9, 11, ....
+
+
+
+
+
+Constraints:
+
+Use only a while loop for repetition.
+
+Do not use for loop or any functions.
+
+The input n will always be a positive integer.
+
+
+
+Sample Input 1:
+5
+
+
+
+Sample Output 1:
+3 5 7 9 11
+
+
+
+Sample Input 2:
+3
+
+
+
+Sample Output 2:
+3 5 7
+
+n = int(input())
+
+i = 0
+sum = 1
+while i < n:
+  sum = sum + 2
+  print(sum, end=" ")
+  i = i + 1
