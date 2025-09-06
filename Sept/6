@@ -1,0 +1,63 @@
+Problem Statement:
+Write a program that takes two integers, start and end, as input and counts how many prime numbers exist between start and end (inclusive) using a while loop.
+
+
+
+
+
+Constraints:
+
+Use only while loop for repetition.
+
+Do not use any inbuilt functions or methods.
+
+Input will always be positive integers, with start ≤ end.
+
+
+
+Explanation:
+A prime number is a number greater than 1 that is only divisible by 1 and itself (e.g., 2, 3, 5, 7, 11). In this problem, you need to check each number in the given range and determine if it is prime.
+
+
+
+Sample Input 1:
+10
+20
+
+
+
+Sample Output 1:
+4
+(Explanation: The prime numbers between 10 and 20 are: 11, 13, 17, and 19.)
+
+
+
+Sample Input 2:
+1
+10
+
+
+
+Sample Output 2:
+4
+(Explanation: The prime numbers between 1 and 10 are: 2, 3, 5, and 7.)
+
+
+
+n = int(input())
+num2 = int(input())
+count = 0
+if n ==1:
+  n = n + 1 
+while n <= num2:  
+  i = 2
+  is_prime = True
+  while i<n:
+   if n%i == 0:
+    is_prime = False
+   i=i+1
+  if is_prime:
+    count = count + 1
+    # print(n, end=" ")
+  n = n + 1
+print(count)
