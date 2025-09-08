@@ -1,0 +1,159 @@
+Problem Statement:
+Write a program that takes a single character as input and checks whether it is an uppercase letter, lowercase letter, or not a letter at all.
+
+If the character is between 'A' and 'Z', print "Uppercase"
+
+If the character is between 'a' and 'z', print "Lowercase"
+
+Otherwise, print "Not a letter"
+
+
+
+
+
+Constraints:
+
+Input will be a single character.
+
+Do not use any inbuilt functions, methods, or external libraries.
+
+Do not use isupper(), islower(), or isalpha().
+
+
+
+Sample Input 1:
+G
+
+
+
+Sample Output 1:
+Uppercase
+
+
+
+Sample Input 2:
+m
+
+
+
+Sample Output 2:
+Lowercase
+
+
+
+Sample Input 3:
+4
+
+
+
+Sample Output 3:
+Not a letter 
+
+n = input()
+if n == "A":
+  print( "Uppercase")
+elif n == "B":
+  print( "Uppercase")
+elif n == "C":
+  print( "Uppercase")
+elif n == "D":
+  print( "Uppercase")
+elif n == "E":
+  print( "Uppercase")
+elif n == "F":
+  print( "Uppercase")
+elif n == "G":
+  print( "Uppercase")
+elif n == "H":
+  print( "Uppercase")
+elif n == "I":
+  print( "Uppercase")
+elif n == "J":
+  print( "Uppercase")
+elif n == "K":
+  print( "Uppercase")
+elif n == "L":
+  print( "Uppercase")
+elif n == "M":
+  print( "Uppercase")
+elif n == "N":
+  print( "Uppercase")
+elif n == "O":
+  print( "Uppercase")
+elif n == "P":
+  print( "Uppercase")
+elif n == "Q":
+  print( "Uppercase")
+elif n == "R":
+  print( "Uppercase")
+elif n == "S":
+  print( "Uppercase")
+elif n == "T":
+  print( "Uppercase")
+elif n == "U":
+  print( "Uppercase")
+elif n == "V":
+  print( "Uppercase")
+elif n == "W":
+  print( "Uppercase")
+elif n == "X":
+  print( "Uppercase")
+elif n == "Y":
+  print( "Uppercase")
+elif n == "Z":
+  print( "Uppercase")
+elif n == "a":
+  print( "Lowercase")
+elif n == "b":
+  print( "Lowercase")
+elif n == "c":
+  print( "Lowercase")
+elif n == "d":
+  print( "Lowercase")
+elif n == "e":
+  print( "Lowercase")
+elif n == "f":
+  print( "Lowercase")
+elif n == "g":
+  print( "Lowercase")
+elif n == "h":
+  print( "Lowercase")
+elif n == "i":
+  print( "Lowercase")
+elif n == "j":
+  print( "Lowercase")
+elif n == "k":
+  print( "Lowercase")
+elif n == "l":
+  print( "Lowercase")
+elif n == "m":
+  print( "Lowercase")
+elif n == "n":
+  print( "Lowercase")
+elif n == "o":
+  print( "Lowercase")
+elif n == "p":
+  print( "Lowercase")
+elif n == "q":
+  print( "Lowercase")
+elif n == "r":
+  print( "Lowercase")
+elif n == "s":
+  print( "Lowercase")
+elif n == "t":
+  print( "Lowercase")
+elif n == "u":
+  print( "Lowercase")
+elif n == "v":
+  print( "Lowercase")
+elif n == "w":
+  print( "Lowercase")
+elif n == "x":
+  print( "Lowercase")
+elif n == "y":
+  print( "Lowercase")
+elif n == "z":
+  print( "Lowercase")
+else:
+  print("Not a letter")
+
