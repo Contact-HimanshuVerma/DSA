@@ -1,0 +1,13 @@
+Problem Statement: Write a program that takes a positive integer as input and calculates the sum of its digits using a while loop. Print the sum. Constraints: Use only while loop for repetition. Do not use for loop or any functions. Do not convert the number to a string. Input will always be a positive integer. Sample Input 1: 1234 Sample Output 1: 10 Sample Input 2: 567 Sample Output 2: 18
+
+
+n = int(input())
+sum = 0
+while True:
+  z = n%10
+  sum=sum+z
+  n = n//10
+  if n == 0:
+    break
+
+print(sum)
